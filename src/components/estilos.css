@@ -1,0 +1,76 @@
+.nombre {
+    height: 30px;
+    padding-top: 15px;
+}
+
+.imgYo {
+    max-width: 100%; /* Por defecto, ocupa el 100% del ancho del contenedor */
+    
+  }
+  
+  /* Estilos específicos para pantallas grandes */
+  @media (min-width: 1200px) {
+    .imgYo {
+      max-width: 400px; /* Tamaño de la imagen en pantallas muy grandes */
+    }
+  }
+  
+  /* Estilos para pantallas medianas (tablets, etc.) */
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    .imgYo {
+      max-width: 500px; /* Tamaño de la imagen en pantallas medianas */
+    }
+  }
+  
+  /* Estilos para pantallas pequeñas (smartphones) */
+  @media (max-width: 767.98px) {
+    .imgYo {
+      max-width: 500px; /* Tamaño de la imagen en pantallas pequeñas */
+    }
+  }
+  
+  /* Estilos para pantallas extra pequeñas */
+  @media (max-width: 575.98px) {
+    .imgYo {
+      max-width: 150px; /* Tamaño de la imagen en pantallas extra pequeñas */
+    }
+  }
+  
+  
+  .cita {
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  .autor {
+    font-size: 1rem;
+    margin-top: 5px;
+  }
+  
+  
+  
+  .descripcion1 {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 100%;
+    margin: 20px auto;
+    
+  }
+
+  .descripcion2 {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    
+  }
+  
+  /* Estilos específicos para pantallas pequeñas */
+  @media (max-width: 992px) {
+  
+    .cita {
+      font-size: 1rem;
+    }
+  
+    .autor {
+      font-size: 0.9rem;
+    }
+  }

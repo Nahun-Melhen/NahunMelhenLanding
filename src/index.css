@@ -1,6 +1,13 @@
-:root {
+body {
   font-family: brioso-pro-display, serif;
-  line-height: 1.5;
-  font-weight: 700;
+  font-weight: 800;
+  font-style: normal;
+  background-color: black;
 }
 
+.linea-blanca {
+  border: none;
+  height: 2px; 
+  background-color: white; 
+  margin: 20px 0; 
+}
