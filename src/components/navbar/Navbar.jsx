@@ -1,12 +1,17 @@
 import React from 'react'
-import { Button } from 'bootstrap'
+import { Container, Row } from 'react-bootstrap'
+import '/src/components/estilos.css'
 
 const Navbar = () => {
   return (
-    <div>
-        <h1 className='text-warning'>Navbar</h1>
-        
-    </div>
+    <Container fluid>
+      <Row>
+        <div>
+          <h1 className='text-center text-white nombre'>Nahun Melhen Corregir imagen responsive</h1>
+        </div>
+        <hr className='linea-blanca' />
+      </Row>
+    </Container>
   )
 }
 
