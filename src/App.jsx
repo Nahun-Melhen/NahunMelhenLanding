@@ -3,6 +3,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar/Navbar';
 import Inicio from './components/paginaInicio/Inicio';
+import Seccion2 from '/src/components/seccion2/Seccion2.jsx';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     
     <Navbar />
     <Inicio />
+    <Seccion2 />
     </>
   )
 }
