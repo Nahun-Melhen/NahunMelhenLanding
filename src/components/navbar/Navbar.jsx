@@ -7,7 +7,7 @@ const Navbar = () => {
     <Container fluid>
       <Row>
         <div>
-          <h1 className='text-center text-white nombre'>Nahun Melhen Corregir imagen responsive</h1>
+          <h1 className='text-center text-white nombre'>Nahun Melhen</h1>
         </div>
         <hr className='linea-blanca' />
       </Row>
